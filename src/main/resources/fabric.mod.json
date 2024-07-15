@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "randomeffects",
+  "version": "${version}",
+  "name": "RandomEffects",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Little1Yuan/RandomEffects"
+  },
+  "license": "MIT",
+  "icon": "assets/randomeffects/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.little1yuan.randomeffects.RandomEffects"
+    ]
+  },
+  "mixins": [
+    "randomeffects.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
